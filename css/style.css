@@ -8,7 +8,7 @@
   font-family: 'Great Vibes', cursive;
   background-image: url("../img/background.png");
   z-index: 999999;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
 }
