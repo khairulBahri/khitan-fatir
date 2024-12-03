@@ -1,0 +1,248 @@
+body {
+  background-image: url("../img/mainBg.png");
+}
+body nav a.navbar-brand {
+  font-family:  cursive;
+  font-weight: bold;
+  color: #fff;
+}
+
+body nav {
+  background-color: #03736b;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+nav div.collapse ul li a {
+  font-family:  cursive;
+  /* color: rgb(18, 17, 17); */
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: large;
+}
+
+nav div.collapse ul li a:hover {
+  font-family:  cursive;
+  font-weight: bolder;
+  font-size: x-large;
+  transition: 0.3s;
+}
+
+title {
+  color: #fff;
+}
+
+svg.pertama {
+  margin-top: 80px;
+}
+
+.pembuka {
+  background-color: #03736b;
+}
+
+.tanggal {
+  font-family: "Edu VIC WA NT Beginner";
+  color: white;
+}
+.pembuka .judul {
+  font-family: "Edu VIC WA NT Beginner";
+  color: rgb(255, 255, 255);
+  background-color: #03736b;
+}
+
+section.doa {
+  background-color: white;
+  font-family: "Edu VIC WA NT Beginner";
+}
+
+.profil {
+  background-color: #03736b;
+}
+
+.profil .judulprofil {
+  font-family: "Edu VIC WA NT Beginner";
+  text-align: center;
+   color: rgb(255, 255, 255);
+}
+
+.profil .namacalon {
+  font-family: "Edu VIC WA NT Beginner";
+  font-size: 20px;
+  color: white;
+}
+
+.galleri .judulgaleri {
+  font-family: "Edu VIC WA NT Beginner";
+   color: rgb(255, 255, 255);
+}
+
+.lokasi {
+  background-color: #03736b;
+}
+
+.lokasi .judullokasi {
+  font-family: "Edu VIC WA NT Beginner";
+  color: rgb(255, 255, 255);
+}
+
+.lokasi .judullokasi a {
+  text-align: start;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+footer {
+  font-family: "Edu VIC WA NT Beginner";
+   color: rgb(0, 0, 0);
+}
+
+footer p a {
+  text-decoration: none;
+   color: rgb(0, 0, 0);
+}
+footer p a:hover {
+  text-decoration: none;
+   color: rgb(0, 0, 0);
+}
+
+/* Styling container */
+.location-container {
+  text-align: center;
+  padding: 16px 0;
+  animation: fadeUp 1.5s ease-in-out;
+}
+
+/* Button styling */
+.btn-map {
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-map:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Icon styling */
+.btn-map .icon {
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+
+.big-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Great Vibes', cursive;
+  background-image: url("../img/background.png");
+  z-index: 999999;
+  position: fixed;
+    top: 0; 
+}
+.container {
+  text-align: center;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+.title {
+  font-size: 2em;
+  color: #333;
+}
+.image-container {
+  margin: 20px 0;
+  position: relative;
+}
+.image-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.names {
+  font-size: 1.5em;
+  color: #333;
+}
+.button-container {
+  margin-top: 20px;
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #333;
+  background-color: #fff;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  text-decoration: none;
+}
+.button i {
+  margin-right: 10px;
+}
+
+
+
+.main-bank {
+  padding: 20px;
+  font-family: "Edu VIC WA NT Beginner";
+  margin-bottom: 105px;
+}
+
+.bank {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: auto 1fr auto; /* Membuat tiga kolom: gambar, detail teks, tombol */
+  align-items: center; /* Vertikal sejajar */
+  gap: 15px; /* Jarak antar elemen */
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertikal sejajar dengan teks */
+}
+
+.copy-btn {
+  background: none;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.copy-btn:hover {
+  background-color: #45a049;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
