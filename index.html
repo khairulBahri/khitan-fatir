@@ -22,7 +22,7 @@
   </head>
   <body>
 
-    <div class="big-container">
+  <div class="big-container">
       <div class="container" id="invitationContainer">
         <div class="title">Tasyakuran Khitan </div>
         <div class="image-container">
@@ -295,7 +295,7 @@
     function hide() {
     var bigContainer = document.querySelector('.big-container');
     const audio = document.getElementById('autoplayAudio');
-      audio.play()
+
     // Pastikan elemen ada
     if (bigContainer) {
         // Fungsi untuk fade-out bigContainer
@@ -315,6 +315,7 @@
         }
 
         fadeOut(bigContainer)
+        audio.play()
       } else {
         console.error('Element .big-container  tidak ditemukan');
     }
