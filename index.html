@@ -290,24 +290,12 @@
     <script>
       AOS.init();
 
-      function playMusic() {
-      const audio = document.getElementById('autoplayAudio');
-      audio.play()
-        .then(() => {
-          console.log("Audio started successfully!");
-          // Hapus listener setelah audio diputar
-          document.removeEventListener('click', playMusic);
-        })
-        .catch(error => console.error("Autoplay error:", error));
-    }
-
-    // Menambahkan event listener untuk klik dan scroll
-    
 
 
     function hide() {
     var bigContainer = document.querySelector('.big-container');
-    document.addEventListener('click', playMusic);
+    const audio = document.getElementById('autoplayAudio');
+      audio.play()
     // Pastikan elemen ada
     if (bigContainer) {
         // Fungsi untuk fade-out bigContainer
