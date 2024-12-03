@@ -1,3 +1,61 @@
+.big-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Great Vibes', cursive;
+  background-image: url("../img/background.png");
+  z-index: 999999;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container {
+  text-align: center;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+.title {
+  font-size: 2em;
+  color: #333;
+}
+.image-container {
+  margin: 20px 0;
+  position: relative;
+}
+.image-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.names {
+  font-size: 1.5em;
+  color: #333;
+}
+.button-container {
+  margin-top: 20px;
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #333;
+  background-color: #fff;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  text-decoration: none;
+}
+.button i {
+  margin-right: 10px;
+}
+
+
 body {
   background-image: url("../img/mainBg.png");
 }
@@ -139,62 +197,6 @@ footer p a:hover {
 }
 
 
-.big-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* height: 100vh; */
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  font-family: 'Great Vibes', cursive;
-  background-image: url("../img/background.png");
-  z-index: 999999;
-  position: fixed;
-    top: 0; 
-}
-.container {
-  text-align: center;
-  opacity: 1;
-  transition: opacity 1s ease-in-out;
-}
-.title {
-  font-size: 2em;
-  color: #333;
-}
-.image-container {
-  margin: 20px 0;
-  position: relative;
-}
-.image-container img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-.names {
-  font-size: 1.5em;
-  color: #333;
-}
-.button-container {
-  margin-top: 20px;
-}
-.button {
-  display: inline-flex;
-  align-items: center;
-  padding: 10px 20px;
-  font-size: 1em;
-  color: #333;
-  background-color: #fff;
-  border: none;
-  border-radius: 25px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  text-decoration: none;
-}
-.button i {
-  margin-right: 10px;
-}
 
 
 
