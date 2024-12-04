@@ -6,7 +6,7 @@
   width: 100%;
   margin: 0;
   font-family: 'Great Vibes', cursive;
-  background-image: url("../img/background.png");
+  background-image: url("../img/mainBg.png");
   z-index: 999999;
   position: fixed;
   top: 0;
@@ -54,6 +54,39 @@
 .button i {
   margin-right: 10px;
 }
+
+
+/* Media Queries untuk Responsivitas */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2em;
+  }
+
+  .names {
+    font-size: 1.5em;
+  }
+
+  .button {
+    font-size: 0.9em;
+    padding: 8px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.8em;
+  }
+
+  .names {
+    font-size: 1.3em;
+  }
+
+  .button {
+    font-size: 0.8em;
+    padding: 8px 15px;
+  }
+}
+
 
 
 body {
